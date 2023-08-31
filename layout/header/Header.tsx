@@ -1,0 +1,1 @@
+import {HeaderProps} from "./Header.props";import styles from "./Header.module.css";import clsx from "clsx";function Header({className, ...props} : HeaderProps): JSX.Element {    return (        <header {...props} className={clsx(className, styles.wrap)}>            Header        </header>    )}export default Header;

@@ -1,0 +1,1 @@
+import {FooterProps} from "./Footer.props";import styles from "./Footer.module.css";import clsx from "clsx";function Footer({className, ...props} : FooterProps): JSX.Element {    return (        <footer {...props} className={clsx(className, styles.wrap)}>            Footer        </footer>    )}export default Footer;

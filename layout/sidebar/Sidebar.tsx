@@ -1,0 +1,1 @@
+import {SidebarProps} from "./Sidebar.props";import styles from "./Sidebar.module.css";import clsx from "clsx";function Sidebar({className, ...props} : SidebarProps): JSX.Element {    return (        <aside {...props} className={clsx(className, styles.wrap)}>            Sidebar        </aside>    )}export default Sidebar;
