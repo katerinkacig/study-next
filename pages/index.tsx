@@ -4,15 +4,12 @@ import {GetStaticProps} from "next";
 import axios from "axios";
 import {MenuItem} from "../interfaces/menu.interface";
 
-function Home({menu}:HomeProps): JSX.Element {
+function Home(): JSX.Element {
   return (
       <>
           <Htag tag='h1'>Главная страница</Htag>
           <Button mod="primary">Нажми меня</Button>
           <Button mod="secondary">Нажми меня</Button>
-          <ul>
-              {menu.map((item, index) => (<li key={index}>{item._id.secondCategory}</li>))}
-          </ul>
       </>
   );
 }

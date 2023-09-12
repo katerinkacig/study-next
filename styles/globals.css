@@ -1,13 +1,16 @@
 :root{
-	--black: #3B434E;
-	--white: #FFF;
-	--primary: #5F39EF;
-	--red: #DE0000;
-	--green: #1DC37E;
-	--green-light: #C8F8E4;
-	--grey: #F5F6F8;
-	--light: #F9F8FF;
-	--font-family: 'Noto Sans', sans-serif;
+    --black: #3B434E;
+    --gray-light: #EBEBEB;
+    --gray: #A4A4A4;
+    --gray-dark: #6C7077;
+    --white: white;
+    --primary: #7351F5;
+    --primary-hover: #6344DF;
+    --red-light: #FEA291;
+    --red: #FC836D;
+    --green: #007B48;
+    --green-light: #C8F8E4;
+    --font-family: "Noto Sans KR", sans-serif;
 }
 
 * {
